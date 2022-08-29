@@ -1,4 +1,4 @@
-.footer {
+.navigation {
   background: var(--primary);
   position: fixed;
   bottom: 0;
@@ -6,12 +6,12 @@
   width: 100%;
 }
 
-.footer__nav-list {
+.navigation__list {
   display: flex;
   justify-content: space-evenly;
 }
 
-.footer__nav-list-item {
+.navigation__list-item {
   margin: 1rem 0;
   padding: 0.5rem;
   width: 100%;
@@ -19,17 +19,17 @@
   justify-content: center;
 }
 
-.footer__nav-list-item:not(:first-child) {
+.navigation__list-item:not(:first-child) {
   border-left: 1px solid var(--black);
 }
 
-.footer__nav-link {
+.navigation__link {
   color: var(--black);
   background: transparent;
   border: none;
   padding: 0;
 }
 
-.footer__nav-button svg {
+.navigation__link svg {
   fill: currentcolor;
 }
