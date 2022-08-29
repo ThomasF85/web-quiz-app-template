@@ -1,0 +1,93 @@
+.profile {
+  padding: 10rem 6rem 2rem;
+}
+
+.profile > * {
+  margin: 0 0 2rem;
+}
+
+.profile__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile__card-img {
+  border-radius: 50%;
+}
+
+.profile__counter-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.profile__counter-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70px;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+}
+
+.profile__counter-list-item-symbol {
+  border: 1px solid var(--black);
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  color: var(--white);
+  background: var(--black);
+}
+
+.profile__settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.profile__settings-darkmode-input {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.profile__settings-darkmode-label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 80px;
+  height: 40px;
+  background: var(--primary-light);
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+.profile__settings-darkmode-label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+.profile__settings-darkmode-input:checked + .profile__settings-darkmode-label {
+  background: var(--primary);
+}
+
+.profile__settings-darkmode-input:checked
+  + .profile__settings-darkmode-label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+.profile__settings-darkmode-label:active:after {
+  width: 130px;
+}
