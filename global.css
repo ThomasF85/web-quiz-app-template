@@ -1,10 +1,9 @@
 :root {
-  --primary: #0397b8;
-  --primary-light: #b8ddf4;
-  --secondary: #f2b705;
-  --secondary-light: #f2f5e4;
-  --white: #ecf8f8;
-  --black: #211103;
+  --primary: #ffffff;
+  --secondary: #ff4a11;
+  --secondary-light: #fddcd2;
+  --white: #ffffff;
+  --black: #252629;
   --ff-primary: sans-serif;
   --ff-serif: serif;
   --fs-200: 0.75rem;

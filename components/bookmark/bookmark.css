@@ -7,7 +7,7 @@
 }
 
 .bookmark--active {
-  color: var(--primary);
+  color: var(--black);
 }
 
 .bookmark svg {

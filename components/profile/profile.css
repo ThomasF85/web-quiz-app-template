@@ -40,7 +40,7 @@
 .profile__settings-darkmode-label:before {
   width: 80px;
   height: 40px;
-  background: var(--primary-light);
+  background: var(--secondary-light);
   display: block;
   border-radius: 100px;
   position: absolute;
@@ -62,7 +62,7 @@
 
 .profile__settings-darkmode-input:checked
   + .profile__settings-darkmode-label:before {
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 .profile__settings-darkmode-input:checked
