@@ -10,6 +10,6 @@
   color: var(--black);
 }
 
-.bookmark svg {
+.bookmark__icon {
   fill: currentcolor;
 }
