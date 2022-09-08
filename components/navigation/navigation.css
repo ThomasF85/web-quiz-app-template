@@ -13,11 +13,14 @@
 }
 
 .navigation__list-item {
-  margin: 1rem 0;
-  padding: 0.5rem;
+  padding: 1.5rem 0.5rem;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.navigation__list-item--active {
+  background-color: var(--secondary-light);
 }
 
 .navigation__list-item:not(:first-child) {
